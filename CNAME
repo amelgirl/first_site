@@ -1,1 +1,83 @@
-ameliagirling.eu
+
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://www.covermytimeline.com/wp-content/uploads/2012/04/easter-lot-of-bunny-rabbits-facebook-timeline-cover.jpg');
+      
+      background-size: 50%;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+      color: rgba(0,0,225,.6);
+    }
+    img {
+      margin: 10px 0px 0px 0px;
+      border: 12px solid rgba(225,100,0,1);
+      border-radius: 70px;
+      max-height: 150px;
+width: 150px;
+height: 150px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(225,100,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      background: rgba(0,0,225,0.5);
+     font-size: 25px;
+      padding: 0px;
+      margin: 20px;
+      text-align: center;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+      body {
+        font-size:50px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://lh6.googleusercontent.com/-5yQZK0Ony4s/AAAAAAAAAAI/AAAAAAAAACk/aETLitAXIeg/photo.jpg">
+    <h1>Amelia's Rabbits</h1>
+    <ul>
+      <li><a href="#">Meet The Rabbits</a></li>
+      <li><a href="#">Parties</a></li>
+      <li><a href="#">Custom Knitwear</a></li>
+    </ul>
+  </header>
+  <article>
+    <p><strong>Amelia's Rabbits</strong> is a small independent company. Focused on providing you with a <em>unique</em> experience. </p>
+  </article>
+  
+  <article>
+    <h2>Newest arrivals:</h2>
+    <img src="http://imagesci.com/img/2013/03/cute-baby-rabbits-7926-hd-wallpapers.jpg">
+    <p> Like for a chance to meet her</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
